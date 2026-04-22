@@ -1,0 +1,25 @@
+{
+  "zero_shot": {
+    "rouge1": 0.34733951557964177,
+    "rouge2": 0.1223376228628032,
+    "rougeL": 0.23298202481106212,
+    "rougeLsum": 0.2728100282324687
+  },
+  "few_shot": {
+    "rouge1": 0.3382001797639391,
+    "rouge2": 0.11226812603791135,
+    "rougeL": 0.22777751784620992,
+    "rougeLsum": 0.2688569164084176
+  },
+  "chain_of_thought": {
+    "rouge1": 0.23398192591840505,
+    "rouge2": 0.0959207673782887,
+    "rougeL": 0.17337106531298907,
+    "rougeLsum": 0.213682611802394
+  },
+  "efficiency": {
+    "avg_latency_seconds": 5.352876853942871,
+    "model": "google/gemma-2-2b-it",
+    "samples_evaluated": 10
+  }
+}

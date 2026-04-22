@@ -1,0 +1,301 @@
+=== Sample 1 ===
+ZERO-SHOT:
+The Palestinian Authority officially joined the International Criminal Court (ICC) on Wednesday, granting the court jurisdiction over alleged crimes committed in Palestinian territories. This move follows the Palestinian Authority's acceptance of the ICC's Rome Statute in January, which included jurisdiction over crimes committed since June 13, 2014, in the occupied Palestinian territories, including East Jerusalem.  The Palestinian accession opens the door for potential investigations into war crimes against Israelis, and Palestinians themselves could face counter-charges.
+
+FEW-SHOT:
+The Palestinian Authority officially joined the International Criminal Court (ICC) on Wednesday, granting the court jurisdiction over alleged crimes in Palestinian territories. This move, which was marked by a ceremony in The Hague, follows the Palestinians' acceptance of the ICC's Rome Statute in January, which allows for investigations into potential war crimes committed in the occupied Palestinian territories since 2014.  The Palestinian membership also means they could face counter-charges from other members of the court.
+
+CHAIN-OF-THOUGHT:
+## Summary of the Article:
+
+**Step 1: Main Topic**
+
+The main topic of the article is the Palestinian Authority's official accession to the International Criminal Court (ICC).
+
+**Step 2: Important Facts and Details**
+
+* The Palestinian Authority became the 123rd member of the ICC.
+* This gives the court jurisdiction over alleged crimes in Palestinian territories, including East Jerusalem.
+* The ICC opened a preliminary examination into the situation in Palestinian territories in June 2014, potentially leading to investigations into war crimes.
+
+**Step 3: 3-Sentence Summary**
+
+The Palestinian Authority officially joined the International Criminal Court (ICC) on Wednesday, granting the court jurisdiction over alleged crimes committed in Palestinian territories since June 13, 2014. This move follows the ICC's preliminary examination of the situation in the region, which could lead to investigations into potential war crimes.  As members of the ICC, Palestinians may
+
+REFERENCE:
+Membership gives the ICC jurisdiction over alleged crimes committed in Palestinian territories since last June .
+Israel and the United States opposed the move, which could open the door to war crimes investigations against Israelis .
+
+==================================================
+
+=== Sample 2 ===
+ZERO-SHOT:
+A stray dog in Washington State, named Theia, survived a horrific ordeal after being hit by a car, then allegedly beaten with a hammer and buried alive.  Despite being found emaciated and covered in dirt, Theia managed to survive and was discovered by a farm worker who brought her to a veterinarian.  The dog is now receiving care at Washington State University's Veterinary Teaching Hospital and is described as gentle and loving despite her traumatic past.
+
+FEW-SHOT:
+A stray dog in Washington State, named Theia, survived a horrific ordeal after being hit by a car, then struck with a hammer and buried.  The dog was found emaciated and weak by a farm worker, and was taken to a veterinarian where she received care.  Theia is now being cared for by Sara Mellado in Moses Lake, Washington, and is described as gentle and loving despite her traumatic past.
+
+CHAIN-OF-THOUGHT:
+## Summary of the CNN article:
+
+**Step 1: Main Topic**
+
+The main topic of the article is a stray dog in Washington State who survived being hit by a car, then allegedly killed by a person and buried alive, only to be found and rescued.
+
+**Step 2: Important Facts and Details**
+
+* A stray dog in Washington State was hit by a car, then allegedly killed by a person who hit her on the head with a hammer.
+* The dog was buried in a field after being killed.
+* The dog survived and was found by a farm worker who took her to a vet.
+* The dog, now named Theia, is a white-and-black bully breed mix and is now being cared for by Sara Mellado in Moses Lake, Washington.
+
+**Step 3: 3-Sentence Summary**
+
+A stray dog in Washington State survived being hit by a car, then allegedly killed by a person who hit her on
+
+REFERENCE:
+Theia, a bully breed mix, was apparently hit by a car, whacked with a hammer and buried in a field .
+"She's a true miracle dog and she deserves a good life," says Sara Mellado, who is looking for a home for Theia .
+
+==================================================
+
+=== Sample 3 ===
+ZERO-SHOT:
+Mohammad Javad Zarif, the Iranian foreign minister, has been instrumental in nuclear negotiations with the US, potentially leading to the lifting of sanctions against Iran. He has received a warm welcome in Iran, with crowds chanting "Long live Zarif" as he arrived.  Zarif is known for his diplomatic skills and jovial demeanor, which contrasts with the complex and often tense nature of his role.
+
+FEW-SHOT:
+Mohammad Javad Zarif, the Iranian foreign minister, has been a key figure in nuclear negotiations with the U.S., potentially leading to the lifting of sanctions against Iran. He received a warm welcome upon his return to Iran, with crowds chanting "Long live Zarif."  Zarif is known for his diplomatic skills and his jovial demeanor, which contrasts with the complex and sensitive nature of his role.
+
+CHAIN-OF-THOUGHT:
+## Summary of the CNN article about Mohammad Javad Zarif:
+
+**Step 1: Main Topic**
+
+The main topic of the article is the Iranian Foreign Minister, Mohammad Javad Zarif, and his recent return to Iran after a successful negotiation with the US on nuclear issues.
+
+**Step 2: Important Facts and Details**
+
+* Zarif is the Iranian Foreign Minister and has been working with US Secretary of State John Kerry to reach a nuclear deal.
+* Zarif's return to Iran was met with a hero's welcome from the public.
+* The article highlights Zarif's positive public image, describing him as "polished" and "jovial."
+
+**Step 3: 3-Sentence Summary**
+
+Mohammad Javad Zarif, the Iranian Foreign Minister, has been instrumental in negotiating a potential nuclear deal with the US, leading to a positive reception upon his return to Iran.  His diplomatic efforts have been successful in bringing the two countries
+
+REFERENCE:
+Mohammad Javad Zarif has spent more time with John Kerry than any other foreign minister .
+He once participated in a takeover of the Iranian Consulate in San Francisco .
+The Iranian foreign minister tweets in English .
+
+==================================================
+
+=== Sample 4 ===
+ZERO-SHOT:
+Five Americans who were monitored for three weeks at a Nebraska hospital after being exposed to Ebola in West Africa have been released.  The group, who worked for Partners in Health, were exposed to the virus in Sierra Leone in March and did not develop the disease.  One of the group members was discharged on Saturday due to a heart-related issue but remains in the area, while the others have returned home.
+
+FEW-SHOT:
+Five Americans who were monitored for three weeks at a Nebraska hospital after being exposed to Ebola in West Africa have been released.  One of the five, who had a heart-related issue, remains in the area but is no longer hospitalized. The other four have returned home after being cleared of Ebola.
+
+CHAIN-OF-THOUGHT:
+## Summary of the CNN article:
+
+**Step 1: Main Topic**
+
+The main topic of the article is the release of five Americans who were monitored for three weeks at a Nebraska hospital after being exposed to Ebola in West Africa.
+
+**Step 2: Important Facts and Details**
+
+* Five Americans, all clinicians for Partners in Health, were exposed to Ebola in Sierra Leone in March.
+* They were monitored at Nebraska Medicine for three weeks after exposure.
+* None of the five developed Ebola, but one had a heart-related issue and was discharged but remains in the area.
+* The colleague who was diagnosed with Ebola is being treated at the NIH in Maryland and is in fair condition.
+* The Centers for Disease Control and Prevention (CDC) is involved in the situation.
+
+**Step 3: 3-Sentence Summary**
+
+Five Americans who were monitored at a Nebraska hospital after being exposed to Ebola in Sierra Leone have been released, with one remaining in
+
+REFERENCE:
+17 Americans were exposed to the Ebola virus while in Sierra Leone in March .
+Another person was diagnosed with the disease and taken to hospital in Maryland .
+National Institutes of Health says the patient is in fair condition after weeks of treatment .
+
+==================================================
+
+=== Sample 5 ===
+ZERO-SHOT:
+A Duke University student has admitted to hanging a noose from a tree near the student union, prompting an investigation into the incident. The student, who is no longer on campus, will face student conduct review and potential disciplinary action.  The university is also conducting a criminal investigation into the incident, which has sparked student protests and calls for unity and justice.
+
+FEW-SHOT:
+A Duke University student has admitted to hanging a noose from a tree near the student union, prompting an investigation and disciplinary action. The student, who has been removed from campus, faces student conduct review and potential criminal charges. The incident has sparked outrage and protests among students and faculty, who are demanding justice and a commitment to addressing racial bias on campus.
+
+CHAIN-OF-THOUGHT:
+## Summary:
+
+**Step 1: Main Topic:** The article discusses a Duke University student who admitted to hanging a noose near a student union, sparking an investigation and student protests.
+
+**Step 2: Important Facts and Details:** 
+* A Duke student has been identified and admitted to hanging a noose on a tree near the student union.
+* The student is no longer on campus and will face student conduct review.
+* The university is investigating whether other individuals were involved.
+* Criminal investigations are also ongoing.
+* Students and faculty members protested the incident, demonstrating solidarity and opposition to racism.
+
+**Step 3: 3-Sentence Summary:** A Duke University student has been identified and admitted to hanging a noose near the student union, prompting an investigation into the incident. The student is no longer on campus and will face student conduct review, while criminal investigations are also underway.  Students and faculty members protested the incident, demonstrating their commitment to combating racism
+
+REFERENCE:
+Student is no longer on Duke University campus and will face disciplinary review .
+School officials identified student during investigation and the person admitted to hanging the noose, Duke says .
+The noose, made of rope, was discovered on campus about 2 a.m.
+
+==================================================
+
+=== Sample 6 ===
+ZERO-SHOT:
+Trey Moses, a college basketball recruit, surprised his girlfriend by asking Ellie Meredith, a high school freshman with Down syndrome, to prom instead of his original date. Trey chose Ellie because she is a great listener and easy to talk to, and he wanted to show her kindness and inclusion. The heartwarming prom-posal was captured by a teacher and shared on the school's newspaper, highlighting the power of kindness and acceptance.
+
+FEW-SHOT:
+Trey Moses, a college basketball recruit, asked Ellie Meredith, a high school freshman with Down syndrome, to be his prom date, surprising everyone with his kind gesture. Trey, originally planning to take his girlfriend, chose Ellie because she is a great listener and easy to talk to. The heartwarming prom-posal took place during Ellie's P.E. class, with the school's newspaper staff capturing the moment.
+
+CHAIN-OF-THOUGHT:
+## Summary:
+
+**Step 1: Main Topic**
+
+The main topic of the article is about Trey Moses, a high school basketball star, asking Ellie Meredith, a high school freshman with Down syndrome, to prom.
+
+**Step 2: Important Facts and Details**
+
+* Trey Moses, a college basketball recruit, is going to prom with Ellie Meredith, a high school freshman with Down syndrome.
+* Trey originally planned to take his girlfriend to prom, but he chose Ellie instead.
+* Trey made the promposal in Ellie's P.E. class, and the school's newspaper staff shared photos of the event.
+
+**Step 3: 3-Sentence Summary**
+
+Trey Moses, a college basketball recruit, surprised everyone by asking Ellie Meredith, a high school freshman with Down syndrome, to prom.  Trey chose Ellie because she is a great listener and easy to talk to, and he made the request in Ellie's P.E. class.
+
+REFERENCE:
+College-bound basketball star asks girl with Down syndrome to high school prom .
+Pictures of the two during the "prom-posal" have gone viral .
+
+==================================================
+
+=== Sample 7 ===
+ZERO-SHOT:
+Amnesty International's annual report reveals a concerning trend of governments using the threat of terrorism to justify executions, even when the threat is perceived or nonexistent. The report highlights the use of the death penalty as a tool to address perceived security threats, often based on flawed premises and with devastating consequences for individuals.  The report cites Pakistan as an example of a country that lifted a moratorium on executions following a terrorist attack, demonstrating the dangerous misuse of the death penalty for political and security purposes.
+
+FEW-SHOT:
+Amnesty International's report reveals that governments are increasingly using the threat of terrorism as a justification for executions, even when the threat is unsubstantiated. The report criticizes this practice as a dangerous and unethical tactic, highlighting the misuse of the death penalty to address perceived security concerns.  The report cites Pakistan as an example of a country that reinstated the death penalty for civilians following a period of moratorium, demonstrating the alarming trend of governments using this tactic.
+
+CHAIN-OF-THOUGHT:
+## Summary of the CNN article:
+
+**Step 1: Identify the main topic of the article:**
+
+The main topic of the article is the use of the death penalty as a tool by governments to address perceived threats, particularly terrorism.
+
+**Step 2: Find the most important facts and details:**
+
+* Amnesty International's annual report highlights a concerning trend of governments using the death penalty to combat terrorism or quell internal instability.
+* The report cites Pakistan as an example of a country that lifted a moratorium on executions following a terrorist attack.
+* The report criticizes this practice as "shameful" and "ill-conceived," arguing that it puts lives at risk and is ineffective in deterring terrorism.
+
+**Step 3: Write a clear 3 sentence summary:**
+
+Amnesty International's report reveals a concerning trend of governments using the death penalty to address perceived threats, including terrorism. The report cites Pakistan as an example of a country that has used this tactic
+
+REFERENCE:
+Amnesty's annual death penalty report catalogs encouraging signs, but setbacks in numbers of those sentenced to death .
+Organization claims that governments around the world are using the threat of terrorism to advance executions .
+The number of executions worldwide has gone down by almost 22% compared with 2013, but death sentences up by 28% .
+
+==================================================
+
+=== Sample 8 ===
+ZERO-SHOT:
+Andrew Getty, grandson of oil tycoon J. Paul Getty, died at age 47, with preliminary findings suggesting natural causes.  Los Angeles police have ruled out foul play and are awaiting the results of an autopsy.  Authorities found medication at Getty's home, but the nature of his medical history and whether he was taking the medication are still under investigation.
+
+FEW-SHOT:
+Andrew Getty, grandson of oil tycoon J. Paul Getty, died at age 47, according to the Los Angeles Police Department.  Preliminary findings suggest natural causes, with no foul play suspected, but an autopsy is pending.  Authorities found medication at Getty's home, but the nature of his medication use and medical history remain unclear.
+
+CHAIN-OF-THOUGHT:
+## Summary:
+
+**Step 1: Main Topic**
+
+The main topic of the article is the death of Andrew Getty, grandson of oil tycoon J. Paul Getty, who was found dead at his home.
+
+**Step 2: Important Facts and Details**
+
+* Andrew Getty, 47, died of natural causes, according to the Los Angeles Police Department.
+* The coroner's preliminary assessment suggests no foul play was involved.
+* An autopsy will be conducted to determine the exact cause of death.
+* Some medication was found at Getty's home, but investigators are unsure if he was taking it or his medical history.
+
+**Step 3: 3-Sentence Summary**
+
+Andrew Getty, grandson of oil tycoon J. Paul Getty, died at his home at the age of 47.  The Los Angeles Police Department confirmed that his death was likely due to natural causes, with no signs of foul play. An autopsy will be conducted to determine
+
+REFERENCE:
+Andrew Getty's death appears to be from natural causes, police say, citing coroner's early assessment .
+In a petition for a restraining order, Getty had written he had a serious medical condition.
+Police say this is not a criminal matter at this time .
+
+==================================================
+
+=== Sample 9 ===
+ZERO-SHOT:
+Tropical storm Chedeng, formerly Maysak, is approaching the Philippines and poses a threat of flash floods and landslides. While the storm has weakened from super typhoon status, it still has sustained winds of over 70 mph and gusts up to 90 mph, prompting authorities to issue warnings and safety precautions. These precautions include banning outdoor activities and urging residents to be prepared for potential flooding and landslides.
+
+FEW-SHOT:
+Tropical storm Chedeng, formerly Maysak, is approaching the Philippines and poses a threat of flash floods and landslides.  The storm, now classified as a tropical storm with sustained winds of over 70 mph, has weakened since gaining super typhoon status but still poses a significant risk. Authorities are urging residents to take precautions and avoid outdoor activities in vulnerable areas.
+
+CHAIN-OF-THOUGHT:
+## Summary of the CNN article:
+
+**Step 1: Main Topic**
+
+The main topic of the article is the approaching tropical storm Chedeng (formerly Maysak) and the potential dangers it poses to the Philippines.
+
+**Step 2: Important Facts and Details**
+
+* Tropical storm Chedeng, formerly a super typhoon, is now a tropical storm with sustained winds of over 70 mph and gusts up to 90 mph.
+* The storm is expected to bring flash floods and landslides to the Philippines.
+* Authorities have issued warnings and taken preemptive measures to protect the public, including banning outdoor activities in certain areas.
+
+**Step 3: 3-Sentence Summary**
+
+Tropical storm Chedeng, formerly a super typhoon, is approaching the Philippines and is expected to bring dangerous weather conditions including flash floods and landslides. Authorities are urging residents to be cautious and have implemented safety measures like banning outdoor activities in some areas. Despite losing some of its
+
+REFERENCE:
+Once a super typhoon, Maysak is now a tropical storm with 70 mph winds .
+It could still cause flooding, landslides and other problems in the Philippines .
+
+==================================================
+
+=== Sample 10 ===
+ZERO-SHOT:
+Bob Barker, the iconic host of "The Price Is Right" for 35 years, returned to the show on April 1st after an eight-year absence.  He hosted the first "Lucky Seven" game, showcasing his familiar style and energy, before handing over to Drew Carey.  Barker's return was a nostalgic treat for fans, proving he hasn't lost his hosting magic.
+
+FEW-SHOT:
+Bob Barker, the legendary host of "The Price Is Right," returned to the show for a special appearance on April 1st.  He hosted the first price-guessing game, "Lucky Seven," before handing over hosting duties to Drew Carey. Despite his long absence from the show, Barker seemed to be in good form and handled the hosting duties with ease.
+
+CHAIN-OF-THOUGHT:
+## Summary:
+
+**Step 1: Main Topic:** The article is about Bob Barker returning to host "The Price Is Right" after an eight-year absence.
+
+**Step 2: Important Facts and Details:** 
+* Bob Barker, the former host of "The Price Is Right," returned to the show on April 1st.
+* He hosted the first "Lucky Seven" game and then handed over to Drew Carey.
+* Barker appeared spry and seemed comfortable despite being away from the show for eight years.
+
+**Step 3: 3-Sentence Summary:** Bob Barker, the iconic host of "The Price Is Right," made a surprise return to the show on April 1st after an eight-year hiatus. He successfully hosted the first "Lucky Seven" game before handing over to Drew Carey. Barker's return marked a nostalgic moment for fans and showcased his continued presence and energy.
+
+REFERENCE:
+Bob Barker returned to host "The Price Is Right" on Wednesday .
+Barker, 91, had retired as host in 2007 .
+
+==================================================
+
