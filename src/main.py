@@ -1,7 +1,9 @@
 from huggingface_hub import login
 import os
-login(token=os.environ.get("HF_TOKEN"))
+login(token=os.environ.get("HF_TOKEN")) #Hidden 
 
+
+## Loading the dataset
 from datasets import load_dataset
 import torch
 torch.manual_seed(42)
@@ -13,6 +15,7 @@ print(samples[0]['article'][:300])
 print(f"\nReference summary:")
 print(samples[0]['highlights'])
 
+#implementing transformers
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 model_id = "google/gemma-2-2b-it"
 print("Loading tokenizer...")
@@ -26,25 +29,22 @@ model = AutoModelForCausalLM.from_pretrained(
 gen = pipeline("text-generation", model=model, tokenizer=tokenizer)
 print("Gemma model ready!")
 
+#running zero-shot prompt
 import time
-
 print("Running zero-shot prompts...")
 zero_shot_summaries = []
 zero_shot_times = []
-
 for i, sample in enumerate(samples.select(range(10))):
     article = sample['article'][:800]
     
     messages = [
         {"role": "user", "content": f"Summarize the following article in 3 sentences:\n\n{article}"}
     ]
-    
     prompt = tokenizer.apply_chat_template(
         messages, 
         tokenize=False, 
         add_generation_prompt=True
     )
-    
     start = time.time()
     response = gen(
         prompt,
@@ -53,7 +53,6 @@ for i, sample in enumerate(samples.select(range(10))):
         pad_token_id=tokenizer.eos_token_id
     )
     end = time.time()
-    
     generated = response[0]['generated_text']
     summary = generated[len(prompt):]
     zero_shot_summaries.append(summary.strip())
@@ -64,8 +63,7 @@ avg_latency = sum(zero_shot_times) / len(zero_shot_times)
 print(f"\nZero-shot complete!")
 print(f"Average latency: {avg_latency:.2f} seconds per summary")
 print(f"\nExample output:\n{zero_shot_summaries[0]}")
-
-
+#Running few-shot prompt
 print("Running few-shot prompts...")
 few_shot_summaries = []
 
@@ -97,26 +95,20 @@ Article: """ + article}
     summary = generated[len(prompt):]
     few_shot_summaries.append(summary.strip())
     print(f"Sample {i+1}/10 done")
-
 print(f"\nFew-shot complete!")
 print(f"\nExample output:\n{few_shot_summaries[0]}")
-
-
+#Running chain of though prompt
 print("Running chain-of-thought prompts...")
 cot_summaries = []
-
 for i, sample in enumerate(samples.select(range(10))):
     article = sample['article'][:800]
     
     messages = [
         {"role": "user", "content": f"""Read the following article and summarize it by thinking step by step.
-
 Step 1: Identify the main topic of the article.
 Step 2: Find the most important facts and details.
 Step 3: Write a clear 3 sentence summary.
-
 Article: {article}
-
 Now follow the steps and write your summary:"""}
     ]
     prompt = tokenizer.apply_chat_template(
@@ -134,32 +126,24 @@ Now follow the steps and write your summary:"""}
     summary = generated[len(prompt):]
     cot_summaries.append(summary.strip())
     print(f"Sample {i+1}/10 done")
-
 print(f"\nChain-of-thought complete!")
 print(f"\nExample output:\n{cot_summaries[0]}")
-
-
+#Calucaling the Scores of the previously coded test
 from evaluate import load
-
 print("Calculating ROUGE scores...")
-
 rouge = load("rouge")
-
 reference_summaries = [samples[i]['highlights'] for i in range(10)]
-
-# Score zero-shot
+# zero-shot
 zero_shot_scores = rouge.compute(
     predictions=zero_shot_summaries,
     references=reference_summaries
 )
-
-# Score few-shot
+# few-shot
 few_shot_scores = rouge.compute(
     predictions=few_shot_summaries,
     references=reference_summaries
 )
-
-# Score chain-of-thought
+# chain-of-thought
 cot_scores = rouge.compute(
     predictions=cot_summaries,
     references=reference_summaries
@@ -181,12 +165,10 @@ print(f"  ROUGE-2: {cot_scores['rouge2']:.4f}")
 print(f"  ROUGE-L: {cot_scores['rougeL']:.4f}")
 print("\n==============================")
 
-
+#setting the metrics and Printing them out from colab just brought code over to know how I saved them
 import json
 import os
-
 os.makedirs("results", exist_ok=True)
-
 metrics = {
     "zero_shot": zero_shot_scores,
     "few_shot": few_shot_scores,
@@ -197,10 +179,8 @@ metrics = {
         "samples_evaluated": 10
     }
 }
-
 with open("results/metrics.json", "w") as f:
     json.dump(metrics, f, indent=2)
-
 with open("results/generations.txt", "w") as f:
     for i in range(10):
         f.write(f"=== Sample {i+1} ===\n")
@@ -209,7 +189,6 @@ with open("results/generations.txt", "w") as f:
         f.write(f"CHAIN-OF-THOUGHT:\n{cot_summaries[i]}\n\n")
         f.write(f"REFERENCE:\n{reference_summaries[i]}\n\n")
         f.write("="*50 + "\n\n")
-
 print("Results saved!")
 print("metrics.json saved")
 print("generations.txt saved")
